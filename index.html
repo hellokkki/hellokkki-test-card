@@ -6,7 +6,7 @@
     <title>Card Hover Effect</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="flex items-center justify-center min-h-screen bg-gray-100">
+    <body class="flex items-center justify-center min-h-screen bg-gray-100">
       <div class="min-w-[315px] max-w-[440px] h-[420px] rounded-lg overflow-hidden shadow-lg bg-gray-300 relative">
         <button class="absolute top-2 right-2 bg-white text-black-500 text-xs rounded px-2 py-1">
           button
@@ -22,25 +22,25 @@
           </div>
 
           <div class="overflow-hidden h-0 group-hover:h-40 transition-all duration-300 ease-in-out mb-9">
-            <div class="mt-1 mb-[40px] space-y-2">
+            <ul class="mt-1 mb-[40px] space-y-2">
               <div class="w-full h-px bg-gray-300"></div>
-              <div class="flex justify-between items-center">
+              <li class="flex justify-between items-center">
                 <p class="text-gray-500">Text</p>
-                <p class="text-gray-700 cursor-pointer">Link</p>
-              </div>
-              <div class="flex justify-between items-center mt-2">
+                <a class="text-gray-700 cursor-pointer" href="#">Link</a>
+              </li>
+              <li class="flex justify-between items-center mt-2">
                 <p class="text-gray-500">Text</p>
-                <p class="text-gray-700 cursor-pointer">Link</p>
-              </div>
-              <div class="flex justify-between items-center mt-2">
+                <a class="text-gray-700 cursor-pointer" href="#">Link</a>
+              </li>
+              <li class="flex justify-between items-center mt-2">
                 <p class="text-gray-500">Text</p>
-                <p class="text-gray-700 cursor-pointer">Link</p>
-              </div>
-              <div class="flex justify-between items-center mt-2">
+                <a class="text-gray-700 cursor-pointer" href="#">Link</a>
+              </li>
+              <li class="flex justify-between items-center mt-2">
                 <p class="text-gray-500">Text</p>
-                <p class="text-gray-700 cursor-pointer">Link</p>
-              </div>
-            </div>
+                <a class="text-gray-700 cursor-pointer" href="#">Link</a>
+              </li>
+            </ul>
           </div>
 
           <div class="mt-auto absolute inset-x-0 bottom-0 flex flex-col items-center">
@@ -49,7 +49,7 @@
             </button>
             <p class="text-center text-gray-500 text-xs mt-2 mb-2">Sub text</p>
           </div>
-          
+
         </div> 
 
       </div>
